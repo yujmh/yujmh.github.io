@@ -1195,7 +1195,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #a7f54f;
+  background: #ffffc2;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1672,9 +1672,7 @@ pre .javascript .function {
   margin-left: 5px;
 }
 .posts-collapse .post-header {
-  align-items: center;
   border-bottom: 1px dashed #ccc;
-  display: flex;
   margin: 30px 0;
   position: relative;
   transition-delay: 0s;
@@ -1705,11 +1703,13 @@ pre .javascript .function {
   background: #222;
 }
 .posts-collapse .post-meta {
+  display: inline;
   font-size: 0.75em;
   margin-left: 15px;
   margin-right: 10px;
 }
 .posts-collapse .post-title {
+  display: inline;
   font-size: 1em;
   font-weight: normal;
   line-height: inherit;
